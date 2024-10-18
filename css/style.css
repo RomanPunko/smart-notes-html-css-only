@@ -1131,20 +1131,16 @@ button:active{
   }
   .footer__columns{
     padding: 0 10px;
+    justify-content: space-around;
+  }
+  .footer__column ul{
+    width: 150px;
   }
   .footer__product{
     margin-bottom: 50px;
-    width: 150px;
   }
   .footer__company{
     margin-bottom: 50px;
-    width: 150px;
-  }
-  .footer__resources{
-    width: 150px;
-  }
-  .footer__legal{
-    width: 150px;
   }
   .footer__last-row{
     flex-direction: column;
@@ -1157,7 +1153,6 @@ button:active{
     order: 2;
     flex-wrap: wrap;
   }
-
   .last-row__link{
     order: 1;
   }
